@@ -1,0 +1,25 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.image-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-wrapper {
+    padding: 20px 20px;
+}
+
+.image {
+    width: 100%;
+}
