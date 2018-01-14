@@ -23,3 +23,11 @@ h1 {
 .image {
     width: 100%;
 }
+
+.landscape {
+    max-width: 1000px;
+}
+
+.portrait {
+    max-width: 600px;
+}
