@@ -44,6 +44,10 @@ p {
     padding: 20px 20px;
 }
 
+.image-wrapper-portrait {
+    padding: 20px 20px;
+}
+
 .description-wrapper-landscape {
     display: flex;
     justify-content: start;
@@ -92,7 +96,8 @@ p {
 
 .title-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    padding-left: 20px;
 }
 
 .container {
@@ -112,5 +117,23 @@ p {
         justify-content: space-between;
         width: calc(100% - 40px);
         margin: 0px 20px;
+    }
+
+    .image-wrapper-portrait {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+
+    .sticks {
+        max-width: 600px;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .log {
+        max-width: 600px;
+        padding: 20px 0px 0px 0px;
     }
 }
