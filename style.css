@@ -85,6 +85,20 @@ p {
     padding: 10px 0px;
 }
 
+.cv-section {
+    padding: 10px 0px;
+    width: 1000px;
+}
+
+.cv-heading {
+    padding: 5px 0px;
+}
+
+.cv-item {
+    letter-spacing: 0px;
+    font-size: 12px;
+}
+
 /* .nav-item {
     padding: 0px 5px;
 } */
@@ -97,6 +111,11 @@ p {
     display: flex;
     justify-content: start;
     padding-left: 20px;
+}
+
+.cv-title-wrapper {
+    display: flex;
+    justify-content: start;
 }
 
 .container {
